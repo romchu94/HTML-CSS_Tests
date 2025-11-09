@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+/* BEGIN (write your solution here) */
+td, th {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+th {
+    font-weight: bold;
+    background-color: #eee;
+}
+
+/* END */
+
+tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
